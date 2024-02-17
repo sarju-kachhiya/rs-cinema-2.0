@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <title>R&S Cinema</title>
+    <!-- Slick Slider -->
+    <link rel="stylesheet" type="text/css" href="vendor/slick/slick.min.css" />
+    <link rel="stylesheet" type="text/css" href="vendor/slick/slick-theme.min.css" />
+    <!-- Custom fonts for this template-->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .sec1 {
+            margin-top: 65px;
+
+        }
+
+        .sec0 {
+            text-transform: uppercase;
+        }
+
+        .sec0a a {
+            color: white;
+            font-weight: 300;
+        }
+
+        .sec0a:hover a {
+            color: #efc309;
+            text-transform: uppercase;
+            font-weight: 900;
+
+        }
+
+        .active a {
+            font-weight: 900;
+            color: #efc309;
+        }
+
+        .ft {
+            background-image: url(images/bg2.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: #9b9b9b;
+        }
+
+        #backToTopBtn {
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: white;
+            border: 2px #203464;
+            color: #203464;
+            border: none;
+            border-radius: 40%;
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        input[type="email"] {
+            background: transparent;
+            border: 2px solid #e6ca51;
+            /* Add border for better visibility */
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 30px;
+            color: white;
+            border-radius: 10px;
+            /* Set text color to black or your preferred color */
+        }
+
+        .sec3 {
+            padding-top: 4px;
+            margin-right: 5%;
+        }
+
+        .sec3a {
+            margin-left: 5px;
+        }
+
+        .sec3a:hover img {
+            scale: 1.5;
+        }
+
+        .sec6 a:hover {
+            color: #efc309;
+        }
+
+        .sec1a {
+            margin-top: 4px;
+        }
+
+        .button-group {
+            text-align: center;
+            margin-top: 100px;
+            margin-bottom: 40px;
+        }
+
+        .button-group .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 5px;
+            background-color: #063939;
+            color: white;
+            font-style: 12px;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: all 0.4s;
+            border: none;
+            border-radius: 5px;
+            outline: none;
+            cursor: pointer;
+        }
+
+        .button-group .button.active {
+            background-color: var(--primary-clr);
+            color: var(--body-clr);
+        }
+
+        .button-group .button:hover {
+            background-color: var(--primary-clr);
+            color: var(--body-clr);
+        }
+
+        @media (max-width: 992px) {
+            .sec0b {
+                padding-right: 50px;
+                padding-top: 5px;
+            }
+        }
+    </style>
+
+    <!-- Custom styles for this template -->
+    <link href="css/osahan.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="sec0 fixed-top navbar navbar-expand-lg bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="images/Logo-1.png" width="140" alt=""></a>
+            <button class="sec0b navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">
+
+                <!-- <i class="fas fa-solis fa-equals"></i> -->
+                <img src="images/menuicon.png" height="18">
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="sec0a nav-item">
+                        <a class="nav-link" href="index.html">
+                            Home</a>
+                    </li>
+                    <li class="sec0a nav-item">
+                        <a class="nav-link" href="about.html">About us</a>
+                    </li>
+                    <li class="sec0a nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            crown
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
+                            <a class="sec0a dropdown-item" href="crown.html" style="color: #203464">crown screen</a>
+                            <a class="sec0a dropdown-item" href="movies-detail.html" style="color: #203464">crown screen
+                                movies</a>
+                        </div>
+                    </li>
+                    <li class="sec0a active nav-item">
+                        <a class="nav-link" href="advertise.html">Advertise</a>
+                    </li>
+                    <li class="sec0a nav-item">
+                        <a class="nav-link" href="groupbooking.html">Group booking</a>
+                    </li>
+                    <li class="sec0a nav-item">
+                        <a href="https://wa.me/9727956000"><img src="images/ordersnack.png" style="padding-left: 40px;"
+                                height="40"></a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <nav class="sec1  navbar navbar-expand-lg navbar-dark bg-dark osahan-nav-mid">
+        <div class="container">
+            <ul class="sec1a navbar-nav mr-auto">
+                <li class="sec3a nav-item">
+                    <a class=" nav-link" href="mailto:info@rnscinemas.com">
+                        <img src="images/mail-2-512.png" height="18" alt="">
+                        <span style="text-transform: lowercase;">info@rnscinemas.com</span></a>
+                </li>
+                <li class="sec3a nav-item">
+                    <a class="nav-link" href="tel:+91 02692 - 247047">
+                        <img src="images/phone-2-512.png" height="18" alt="">
+                        <span style="text-transform: lowercase;">+91 02692 - 247047/247147</span></a>
+                </li>
+
+
+            </ul>
+            <!-- <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+            data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+         </button> -->
+            <div class="sec3 collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="sec3a nav-item">
+                        <a class="nav-link" href="https://www.instagram.com/rs_cinemas?igsh=MWl6cmR5dHQzdTFmYg==">
+                            <img src="images/instagram-white-icon.png" height="18"></a>
+                    </li>
+                    <li class="sec3a nav-item dropdown">
+                        <a class="nav-link" href="https://www.facebook.com/R&s%20Cinema">
+                            <img src="images/facebook-512.png" height="18">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="faq-page py-5 bg-light border-top mt-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 mx-auto">
+                    <div class="row">
+                        <div class="col-lg-8 col-md-8">
+                            <div class="bg-white p-4 shadow-sm rounded h-100">
+                                <picture class="mt-2 mb-2">
+                                    <source srcset="images\photos\advertise with us.jpg" type="image/svg+xml">
+                                    <img src="images/photos/advertise with us.jpg" class="img-fluid img-thumbnail"
+                                        alt="...">
+                                </picture>
+                                <div class="p-4">
+                                    <h2 class="mt-4 mb-2">On-Screen Advertising</h2>
+                                    <p>On-screen advertising comprises of digital commercials and static slides.</p>
+                                    <p>Commercials are played for a minimum of three times a day per auditorium with the
+                                        main movie either
+                                        during the beginning or interval.</p>
+                                    <p>Static slides (with or without voice over) are played inside the auditorium in
+                                        all the shows for a
+                                        duration of 10 sec per slide.</p>
+                                    <p>Commercials need to be provided in DIGIBETA format. Static Slides need to be
+                                        provided in 15cm (W) x
+                                        10cm (H) in 300 dpi resolution.</p>
+                                </div>
+                                <div class="accordion" id="accordionExample">
+                                    <div class="card mb-0">
+                                        <div class="card-header" id="headingOne">
+                                            <h6 class="mb-0">
+                                                <a href="#" data-toggle="collapse" data-target="#collapseOne"
+                                                    aria-expanded="true" aria-controls="collapseOne">
+                                                    <i class="icofont icofont-question-square"></i>Off-Screen
+                                                    Advertising
+                                                </a>
+                                            </h6>
+                                        </div>
+                                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                            data-parent="#accordionExample">
+                                            <div class="card-body">
+                                                <ul style="list-style-type: circle;">
+                                                    <li>
+                                                        <p>Branding on box-office panels</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Sampling of Posters at box-office</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Digital LED posters at box-office</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Leaflet distribution</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Ticket jackets</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Discount vouchers distribution</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Standee display at box-office</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Outdoor Banner on main facades and parking arena</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-header" id="headingTwo">
+                                            <h6 class="mb-0">
+                                                <a href="#" data-toggle="collapse" data-target="#collapseTwo"
+                                                    aria-expanded="true" aria-controls="collapseTwo">
+                                                    <i class="icofont icofont-question-square"></i>Branding in CROWN
+                                                </a>
+                                            </h6>
+                                        </div>
+                                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                            data-parent="#accordionExample">
+                                            <div class="card-body">
+                                                <ul style="list-style-type: circle;">
+                                                    <h6 class="mb-2"> Gujarat’s #1 Royal Cinema</h6>
+                                                    <li>
+                                                        <p>Standee in Crown Lobby area</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Branding on digital LEDs</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Tent cards on Crown recliner tables</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Branding on Crown blanket tags </p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-header" id="headingTwo">
+                                            <h6 class="mb-0">
+                                                <a href="#" data-toggle="collapse" data-target="#collapsefour"
+                                                    aria-expanded="true" aria-controls="collapsefour">
+                                                    <i class="icofont icofont-question-square"></i>Main Lobby
+                                                </a>
+                                            </h6>
+                                        </div>
+                                        <div id="collapsefour" class="collapse" aria-labelledby="headingTwo"
+                                            data-parent="#accordionExample">
+                                            <div class="card-body">
+                                                <ul style="list-style-type: circle; ">
+                                                    <li>
+                                                        <p>Standee in main lobby</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Backlit Poster in main lobby</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Pillar branding in main lobby</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Big wall brandings in lobby</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Posters and Video Promos on digital LEDs</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>5’ x 5’ Kiosk promotion in lobby</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Product display in main lobby</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Cut-out displays in lobby</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Floor stickers</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Gate arch at Main entrance</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-header" id="headingThree">
+                                            <h6 class="mb-0">
+                                                <a href="#" data-toggle="collapse" data-target="#collapseThree"
+                                                    aria-expanded="true" aria-controls="collapseThree">
+                                                    <i class="icofont icofont-question-square"></i>Washroom Branding
+                                                </a>
+                                            </h6>
+                                        </div>
+                                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                            data-parent="#accordionExample">
+                                            <div class="card-body">
+                                                <ul style="list-style-type: circle;">
+                                                    <li>
+                                                        <p>Branding on washroom doors</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Branding on washroom mirrors</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Stickers on urinals in gents washrooms</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-header" id="headingThree">
+                                                <h6 class="mb-0">
+                                                    <a href="#" data-toggle="collapse" data-target="#collapseThree"
+                                                        aria-expanded="true" aria-controls="collapseThree">
+                                                        <i class="icofont icofont-question-square"></i>Concession
+                                                        Branding
+                                                    </a>
+                                                </h6>
+                                            </div>
+                                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                                data-parent="#accordionExample">
+                                                <div class="card-body">
+                                                    <ul style="list-style-type: circle;">
+                                                        <li>
+                                                            <p>Popcorn tub branding</p>
+                                                        </li>
+                                                        <li>
+                                                            <p>Branding on digital LEDs</p>
+                                                        </li>
+                                                        <li>
+                                                            <p>Food Product sampling from Concession</p>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4">
+                            <div class="bg-white p-4 shadow-sm rounded">
+                                <div class="section-header">
+                                    <h5 class="heading-design-h5 mb-4">
+                                        Contact Us For Advertise
+                                    </h5>
+                                </div>
+                                <form method="post" action="connect.php">
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <div class="form-group">
+                                                <label class="control-label">Your Name <span
+                                                        class="required">*</span></label>
+                                                <input class="form-control border-form-control" value=""
+                                                    placeholder="Enter Name" type="text" name="contact-name"
+                                                    id="contact-name">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <div class="form-group">
+                                                <label class="control-label">Your Company Name <span
+                                                        class="required">*</span></label>
+                                                <input class="form-control border-form-control" value=""
+                                                    placeholder="Enter Compan's Name" type="text" name="cname"
+                                                    id="cname">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <label class="control-label">Email Address <span
+                                                        class="required">*</span></label>
+                                                <input class="form-control border-form-control " value=""
+                                                    placeholder="ex@gmail.com" type="email" name="contact-email"
+                                                    id="contact-email">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <label class="control-label">Phone <span
+                                                        class="required">*</span></label>
+                                                <input class="form-control border-form-control" value=""
+                                                    placeholder="Enter Phone" type="number" name="contact-phone"
+                                                    id="contact-phone">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <div class="form-group">
+                                                <label class="control-label">Type <span
+                                                        class="required">*</span></label><br>
+                                                <input type="radio" name="radio1" id="onscreenadvertise"
+                                                    name="offscreen">
+                                                <label for="offscreen">On-Screen</label>
+                                                <input type="radio" name="radio1" id="offscreenadvertise"
+                                                    name="onscreen">
+                                                <label for="onscreen">Off-Screen</label><br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <div class="form-group">
+                                                <label class="control-label">Your Message <span
+                                                        class="required">*</span></label>
+                                                <textarea id="contact-message" name="contact-message"
+                                                    class="form-control border-form-control"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-12 text-right">
+                                            <button type="submit" class="btn btn-primary btn-bg"> Submit </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container mb-5" id="section2">
+        <div class="col-lg-12 bg-white shadow-sm rounded">
+            <div class="p-4">
+                <h2 class="mt-4 mb-4">Why us?</h2>
+                <p>We are Anand city’s premiere multiplex chain with highest footfall of 3000 to 4000 patrons per day on
+                    weekends and 1500 to 2000 patrons per day on weekdays. Besides attracting a premium and upscale
+                    clientele with spending power, we have succeeded in creating ideal spaces for high-impact
+                    advertising that engages the customer whilst spending time at leisure in the multiplex premises.</p>
+
+            </div>
+            <div class="p-4">
+                <h2 class="mt-0 mb-4">Why your Brand should be at R&S Cinemas?</h2>
+                <ul style="list-style-type: square;">
+                    <li>
+                        <p>R&S Cinemas is 4 Screen Multiplex with total seating capacity of 1000 seats.</p>
+                    </li>
+                    <li>
+                        <p>Entertains over 8,00,000 customers every year.</p>
+                    </li>
+                    <li>
+                        <p>Premium locations either in elite residential catchments or prime business areas.</p>
+                    </li>
+                    <li>
+                        <p>Attracts an upscale audience with the ability to spend.</p>
+                    </li>
+                    <li>
+                        <p>World class ambience. State-of-the-art modern projection & acoustic systems.</p>
+                    </li>
+                    <li>
+                        <p>Focus on providing customised and innovative advertising solutions.</p>
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+        <picture class="mt-2 mb-2">
+            <source srcset="images\photos\about us.jpg" type="image/svg+xml">
+            <img src="images/photos/about us.jpg" class="img-fluid img-thumbnail" alt="...">
+        </picture>
+    </div>
+
+
+    <footer class="py-5 ft full-width-ft">
+        <div class="pt-2 pb-2 bg-dark footer ft">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3 col-md-12 mb-4" style="align-items: center;">
+                        <a href="index.html"><img class="logo" src="images/Logo-1.png" alt="" width="119"
+                                style="margin-bottom: 30px;"></a>
+                        <p>Rajshivalay Road,<br>
+                            Anand, Gujarat 388001</p>
+                        <p class="sec6">Call us: <a href="tel:+91 02692 - 247047 " style="color: #aa8c06;">+91
+                                02692 -
+                                247047
+                                / 247147 </a>
+                        </p>
+                        <p class="sec6">Mail on: <a href="mailto:info@rnscinemas.com"
+                                style="color: #aa8c06;">info@rnscinemas.com</a></p>
+                    </div>
+                    <div class="sec6 col-xl-3 col-md-12 mb-4" style="text-align: center;">
+                        <h6 style="font-weight: 500; color: white; font-size: 20px;">Resources</h6>
+                        <ul>
+                            <li><a href="about.html" style="font-weight: 600; font-size: 14px;">About Us</a></li>
+                            <li><a href="advertise.html" style="font-weight: 600; font-size: 14px;">Advertise</a></li>
+                            <li><a href="crown.html" style="font-weight: 600; font-size: 14px;">Crown</a></li>
+                        </ul>
+                    </div>
+                    <div class="sec6 col-xl-3 col-md-12 mb-4" style="text-align: center;">
+                        <h6 style="font-weight: 500; color: white; font-size: 20px;">Useful Links</h6>
+                        <ul>
+                            <li><a href="crownscreenmovies.html" style="font-weight: 600; font-size: 14px;">Movie
+                                    Schedule</a></li>
+                            <li><a href="groupbooking.html" style="font-weight: 600; font-size: 14px;">Group Booking</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-3 col-md-12 mb-4" style="text-align: left;">
+                        <h6 style="font-weight: 500; color: white; font-size: 20px; text-align: left;">News
+                            Letter</h6>
+                        <p>Subscribe to our newsletter system now <br> to get latest news from us.</p>
+                        <form action="contact.php" method="post">
+                            <input type="email" id="email" name="email" placeholder="Your email address"><br>
+                            <a href="#" type="submit" style="margin-top: 10px; color: #efc309;">SUBSCRIBE
+                                NOW
+                                &#10095;</a>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <p class="m-0 text-left"> &copy; 2024 <strong>R&S Cinemas</strong>. All Rights Reserved. Design By
+                <a target="_blank" href="https://keryar.com/" style="color: #aa8c06;">Keryar</a>.
+            </p>
+            <p class="m-0 text-right" style="font-size: 20px;"> <button id="backToTopBtn" title="Go to top">&#8593
+                </button></p>
+        </div>
+
+    </footer>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- slick Slider JS-->
+    <script type="text/javascript" src="vendor/slick/slick.min.js"></script>
+    <!-- Custom scripts for all pages-->
+    <script src="js/osahan.js"></script>
+    <script>
+        window.onscroll = function () {
+            scrollFunction();
+        };
+
+        function scrollFunction() {
+            var backToTopBtn = document.getElementById("backToTopBtn");
+
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                backToTopBtn.style.display = "block";
+            } else {
+                backToTopBtn.style.display = "none";
+            }
+        }
+
+        // Smooth scrolling when clicking the Back to Top button
+        document.getElementById("backToTopBtn").onclick = function () {
+            scrollToTop();
+        };
+
+        function scrollToTop() {
+            var currentPosition = document.documentElement.scrollTop || document.body.scrollTop;
+
+            if (currentPosition > 0) {
+                window.requestAnimationFrame(scrollToTop);
+                window.scrollTo(0, currentPosition - currentPosition / 8);
+            }
+        }
+    </script>
+</body>
+
+</html>
